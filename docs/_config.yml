@@ -1,53 +1,76 @@
 ### Site Settings ###
-source              : ../
-collections_dir     : docs
-data_dir            : docs/_data
-baseurl             : ""
-repository          : yousinix/portfolYOU
-open_new_tab        : false
-
 title               : Daniel Stebbings
-description         : 
-                      4th year EEE Student
+description         : 4th year EEE Student
                       passionate about the space industry, communications, and technology.
                       Use this site to learn more about me!
+baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+#repository          : yousinix/portfolYOU      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : yousinix/portfolYOU
+open_new_tab        : true                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
 
 ### Navbar Settings ###
-nav_exclude:
-  - docs/pages/tags.html
-  - docs/pages/404.html
-  - docs/pages/index.md
-  - docs/pages/documentation/**
-  - docs/pages/blog.html
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - pages.blog.html
+  - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
 author:
   name              : Daniel Stebbings
   image             : assets/images/home/Rocket_Portrait.jpg
-  github            : danielstebbings
+#  behance           : your_username
+# dribbble          : your_username
+#  email             : username@domain.com
+#  facebook          : your_username
+  github            : your_username
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : your_username
+#  medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+#  twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
 
 
 ### Posts ###
 permalink: /blog/:title
 
-disqus:
-  shortname: your-disqus-shortname
 
 ### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:
-    output: true
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
 ### Analytics ###
 analytics:
-  enabled: true
+  enabled: false                                        # Set true to enable analytics
   google:
-    tracking_id: google-tracking-id
+    tracking_id: your-google-tracking-id
 
 
 ### Buy me a coffee ###
@@ -67,28 +90,21 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:
-      path: ""
-      type: "elements"
-    values:
-      layout: "element"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"
     values:
-      comments: false
-
-plugins:
-  - jekyll-default-layout
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jemoji
+      comments: false                                   # Set to true to enable disqus comments
 
 
+### Exclude from processing ###
 exclude:
-  - test/
-  - docs/Gemfile
-  - docs/Gemfile.lock
-  - docs/_site/
-  - docs/.sass-cache/
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
