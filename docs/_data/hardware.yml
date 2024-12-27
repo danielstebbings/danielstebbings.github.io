@@ -1,0 +1,11 @@
+- name: Altium Designer
+  level: expert
+  color: info
+
+- name: KiCAD
+  level: proficient
+  color: success
+
+- name: Fusion 360
+  level: familiar
+  color: secondary

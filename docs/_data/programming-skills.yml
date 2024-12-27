@@ -1,0 +1,14 @@
+- name: Python
+  level: proficient
+  color: success
+- name: C++
+  level: proficient
+  color: success
+
+- name: C
+  level: proficient
+  color: success
+
+- name: MATLAB
+  level: proficient
+  color: success

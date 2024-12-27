@@ -1,0 +1,29 @@
+
+- title: Intern, AMD
+  from: June
+  to: August 2024
+  description:   My project related to AI applications to 5G. After conducting background research, I was able to identify particular areas that could benefit. I pitched this to my manager, and was able to focus my work towards this. My main contributions were in developing code to analyse model performance in greater depth. I gained skills in MATLAB, PyTorch, and Python data science tools.
+
+- title: Electronics Sub-Team Lead, StrathSEDS
+  from: 2023
+  to: present
+  description: I have been leading the electronics sub-team lead of StrathSEDS for some time now.
+   I have overseen the creation of our Firefly 1.1 and Mini flight computers, working directly on subsystems for each. 
+   This year, I've been leading the development of our latest computer, Firefly Ultra, and handling the certification process with UKRA.
+   This role has given me valuable experience leading teams, creating effective documentation, managing projects, working with external partners, and developing my technical skills.
+
+- title: Intern, Radtest Ltd
+  from: July
+  to: August 2023
+  description: I was tasked with creating radiation test solutions for advanced memory chips. I researched and gained familiarity with radiation effects, previous implementations and memory testing algorithms. 
+               Next, I created a modular system of PCBs using KiCAD to support each target memory chip, test methods of heating ICs, and implement LVDS communications to extend the range of I2C and SPI interfaces resiliently. Finally, I implemented the MARCH memory test algorithm using Vitis HLS, created a QSPI controller using VHDL in Vivado
+
+- title: Member, StrathSEDS
+  from: 2021
+  to: 2023
+  description: wdwdwd
+
+- title: Student, University of Strathclyde
+  from: 2021
+  to: present
+  description: Working towards a masters in Electronic and Digital Systems. Selected modules focusing on communications, FPGAs, DSP and embedded programming. Currently working on my dissertation project to create the downlink communications system for STRATHcube, a cubesat project at the university.

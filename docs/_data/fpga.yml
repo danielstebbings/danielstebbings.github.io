@@ -1,0 +1,11 @@
+- name: Vivado + Vitis
+  level: proficient
+  color: success
+
+- name: VHDL
+  level: proficient
+  color: success
+
+- name: System Generator
+  level: familiar
+  color: secondary
